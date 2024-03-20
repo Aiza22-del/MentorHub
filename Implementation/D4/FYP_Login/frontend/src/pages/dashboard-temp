@@ -1,0 +1,71 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "../css/classNav.css"
+
+
+function UserDashboard() {
+  return (
+
+
+
+    <div className="navStyle">
+
+      <div className="container-fluid px-md-5 pt-4 pt-md-5">
+        <div className="row justify-content-between">
+          <div className="col-md-8 order-md-last">
+            <div className="row">
+              <div className="col-md-6 text-center">
+                <a className="navbar-brand" href="index.html">MentorHub </a>
+              </div>
+              <div className="col-md-6 text-center">
+                <Link className="navbar-brand" to="/HomePage"><small>HOME</small> </Link>
+                <a className="navbar-brand" href="index.html"><small>ABOUT</small> </a>
+                <a className="navbar-brand" href="index.html"><small>SERVICE</small> </a>
+                <a className="navbar-brand" href="index.html"><small>TESTIMONIAL</small> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div style={{ backgroundColor: '#fff' }}> 
+      <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" >
+        <div className="container-fluid">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="fa fa-bars"></span> Menu
+          </button>
+          <div className="collapse navbar-collapse" id="ftco-nav">
+            <ul className="navbar-nav m-auto">
+              <li className="nav-item active"><Link to="/UserDashboard" className="nav-link">Dashboard</Link></li>
+              <li className="nav-item"><Link to="/SearchMentor" className="nav-link">Search Mentor</Link></li>
+              <li className="nav-item"><Link to="/MentorInsightHub" className="nav-link">Mentor Insight</Link></li>
+              <li className="nav-item"><a href="top-seller.html" className="nav-link">Chat</a></li>
+              <li className="nav-item"><a href="book.html" className="nav-link">Payment</a></li>
+              <li className="nav-item"><Link to="/Profile" className="nav-link">Profile</Link></li>
+              <li className="nav-item"><a href="blog.html" className="nav-link">Notification</a></li>
+              <li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+
+
+
+
+
+      <div>
+      <h2 >body</h2>
+      </div>
+
+
+    </div>
+
+
+
+
+
+    )
+}
+
+export default UserDashboard;
