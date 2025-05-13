@@ -23,13 +23,22 @@ FAQs and Support: Access frequently asked questions and seek assistance from the
 Technology Stack:
 
 Frontend: ReactJS
+
 Backend: Django REST Framework
+
 Database: SQLite
+
 Version Control: Git/GitHub
+
 API Testing: Postman
+
 Other Tools: Google Calendar API, Stripe (Payment), Figma
+
 Documentation: MS Word
-Future Impact: MentorHub aims to empower aspiring entrepreneurs by providing them with the necessary guidance and resources to succeed 
+
+Future Impact: 
+
+MentorHub aims to empower aspiring entrepreneurs by providing them with the necessary guidance and resources to succeed 
 in their startup ventures. By fostering meaningful mentor-mentee relationships and facilitating knowledge sharing, MentorHub seeks to 
 contribute to the growth and innovation of the entrepreneurial ecosystem. With its user-friendly interface and comprehensive features,
 MentorHub is poised to become a valuable asset for startup founders worldwide.
