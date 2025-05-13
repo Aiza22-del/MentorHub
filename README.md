@@ -40,7 +40,7 @@ How to Run Locally
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/MentorHub.git
+git clone https://github.com/Aiza22-del/MentorHub.git
 
 # Backend setup
 cd backend
