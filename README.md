@@ -23,10 +23,11 @@ FAQs and Support: Access frequently asked questions and seek assistance from the
 Technology Stack:
 
 Frontend: ReactJS
-Backend: Django
+Backend: Django REST Framework
 Database: SQLite
 Version Control: Git/GitHub
 API Testing: Postman
+Other Tools: Google Calendar API, Stripe (Payment), Figma
 Documentation: MS Word
 Future Impact: MentorHub aims to empower aspiring entrepreneurs by providing them with the necessary guidance and resources to succeed 
 in their startup ventures. By fostering meaningful mentor-mentee relationships and facilitating knowledge sharing, MentorHub seeks to 
@@ -34,3 +35,19 @@ contribute to the growth and innovation of the entrepreneurial ecosystem. With i
 MentorHub is poised to become a valuable asset for startup founders worldwide.
 
 Here is the Link to our Final Project: https://drive.google.com/file/d/1di-ypCtDScZaewx_taj7iw3eiz9gpm1m/view?usp=sharing
+
+How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/MentorHub.git
+
+# Backend setup
+cd backend
+pip install -r requirements.txt
+python manage.py runserver
+
+# Frontend setup
+cd frontend
+npm install
+npm start
